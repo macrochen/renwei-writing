@@ -66,6 +66,12 @@ license: See LICENSE.md - free for open-source & personal use; commercial
 7. **上限是隐形。** 你帮人改文字的最好结果,是读者完全感觉不到
    你来过。不要追求"改得更好",追求"清掉绊脚的,其他原样"。
 
+## 输出规范
+
+执行完毕后，必须将最终打磨后的文本与逐处改动说明，自动保存为本地 Markdown 文件：
+- **保存路径**：`~/outputs/renwei-writing-skill/<yyyy-mm-dd-简短描述>.md` (例：`~/outputs/renwei-writing-skill/2026-06-14-文案打磨.md`)
+- **交互要求**：在回复用户时，只需给出文件的绝对路径，并用 1-2 句话点拨核心改动点即可，无需在对话框里打印完整的长篇内容。
+
 ## Gotchas(真实失败案例换来的)
 
 - **越磨越用力是默认失败路径。** 用户说"打磨三遍",不等于三遍
